@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "homework 2-1"
+version = "0.1.0"
+description = "First poetry intall for project"
+authors = ["Production044 <dmitry.klimenko.work@gmail.com>"]
+license = "Free"
+readme = "README.md"
+packages = [{include = "homework 2"}]
+
+[tool.poetry.dependencies]
+python = "3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
